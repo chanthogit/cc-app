@@ -21,7 +21,7 @@ html,body{margin:0;height:100%;background:#f7f4fc;overflow:hidden}
 var EXEC="https://script.google.com/macros/s/AKfycbxUPL9NRJh11IOPi1v27E35eOGF2c9RTLaVdE1i5dpQF3cn4OEcSQccmmzSfXgR2oLkJw/exec";
 
 /* set to true to hide Telegram's top bar (phones, Telegram 8.0+). Leave false for the normal full-height app. */
-var FULLSCREEN=true;
+var FULLSCREEN=false;
 
 var q=new URLSearchParams(location.search),t=q.get("t")||"",f=document.getElementById("f"),l=document.getElementById("l");
 try{var W=window.Telegram&&Telegram.WebApp;if(W){W.ready();W.expand();try{W.disableVerticalSwipes&&W.disableVerticalSwipes()}catch(e){}
